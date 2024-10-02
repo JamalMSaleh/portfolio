@@ -3,7 +3,7 @@ import styles from './Home.module.scss';
 import dynamic from 'next/dynamic';
 
 
-const Header = dynamic(() => import('app/components/Header'), {
+const Header = dynamic(() => import('@components/Header'), {
     loading: () => <p>Loading header...</p>,
     ssr: false,
 });

@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 
-const LazyHeader = lazy(() => import('.'));
+const LazyHeader = lazy(() => import('./Index'));
 
 const Header = (props: JSX.IntrinsicAttributes & { children?: React.ReactNode; }) => (
   <Suspense fallback={null}>
