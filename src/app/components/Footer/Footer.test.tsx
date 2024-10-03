@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Footer from './Index';
+import Footer from './FooterComponent';
 
 describe('<Footer />', () => {
   test('it should mount', () => {

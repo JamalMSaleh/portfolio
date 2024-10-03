@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Index from './Index';
+import Index from './HomePage';
 
 describe('<Index />', () => {
   test('it should mount', () => {
